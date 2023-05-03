@@ -1,0 +1,10 @@
+{
+    "name": "Team-Profiler",
+    "version": "1.0.0",
+    "description": "Builds and displays pages with info about members in a team.",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+ 
+    }
+  }
