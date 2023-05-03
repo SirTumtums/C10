@@ -254,8 +254,8 @@ function internCard() {
           <ul class="card-text">
             <li class="list-group-item">ID: ${employee.getId()}</li>
             <li class="list-group-item">Email: <a href="mailto: ">${employee.getEmail()}</a></li>
-            <li class="list-group-item">GitHub: <a href="https://github.com/${employee.getGithub()}" target="_blank" 
-            rel="noopener noreferrer">${employee.getGithub()}</a></li>
+            <li class="list-group-item">GitHub: <a href="https://github.com/${employee.getGithub()}" target="null" 
+            rel="Null">${employee.getGithub()}</a></li>
             </ul>
         </div>
         </div>
@@ -290,7 +290,7 @@ function internCard() {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Team Builder - My Team</title>
+        <title>Team Profiler</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
         <link rel="stylesheet" href="style.css">
@@ -299,7 +299,7 @@ function internCard() {
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 p-5 mb-3 team-heading">
-        <h1 class="text-center">Team Builder</h1>
+        <h1 class="text-center">Team Profiler</h1>
       </div>
     </div>
   </div>
